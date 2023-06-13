@@ -5,19 +5,24 @@ console.log('thieves')
 
 
 // Our first TS Code
-
+let age: number = 5;
+let myName: string = 'christian'
+myName = 'Dylan'
+let isPrime: boolean = true
 
 
 // ---------- TS Fundamentals ----------
 
 // Built-in Types: variable: type = value
-
+let students;
 
 
 // ----- The "any" Type: Not best practice, you'll lose the benefit of static typing
+function fullName(firstName: string, lastName: string) {
+    console.log(firstName, lastName)
+}
 
-
-
+fullName('Dylan', 'Katina')
 // ----- Arrays: Dynamic, you can pass any data type
 
 
