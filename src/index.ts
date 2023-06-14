@@ -115,5 +115,5 @@ let employee = {id: 1}
 console.log(employee.id)
 //OUTPUT: 1
 
-employee[userName]
+// employee[userName]
 
