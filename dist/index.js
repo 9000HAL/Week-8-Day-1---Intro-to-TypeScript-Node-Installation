@@ -17,3 +17,25 @@ let dog = [1, 'pitbull'];
 dog.push(2);
 console.log(dog);
 console.log(2);
+var Instructors;
+(function (Instructors) {
+    Instructors["Lead"] = "Christian";
+    Instructors["Associate"] = "Dylan";
+})(Instructors || (Instructors = {}));
+console.log(Instructors.Lead);
+function calculateTax(income, taxYear) {
+    if (income < 50000) {
+        console.log(taxYear);
+        return income * 1.2;
+    }
+    else {
+        return income * 1.3;
+    }
+}
+console.log(calculateTax(70000, 2023));
+let employee = {
+    id: 1,
+    userName: 'dylan'
+};
+console.log(employee.id);
+console.log(employee);

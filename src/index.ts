@@ -125,9 +125,20 @@ Use "?" for optional properties
 Use readonly on properties you never want to reassign
 */
 
-let employee = {id: 1}
+let employee: {
+    /*readonly*/ id: number, //NOW ID CAN NOT BE CHANGED________________________
+    userName: string
+} = {
+    id: 1,
+    userName: 'dylan'
+}
 console.log(employee.id)
-//OUTPUT: 1
+//OUTPUT example #1: 1
+//employee.id =2
+console.log(employee)
+
+
+
 
 // employee[userName]
 
