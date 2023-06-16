@@ -88,9 +88,8 @@ console.log(Instructors.Lead)
 // ----- Functions: function "name"(parameter: type): return type {}
 // Turn on "noUnusedParameters" & "noUnusedLocals" in config
 
-function calculateTax(income: number, taxYear?: number): number {
+function calculateTax(income: number): number {
     if (income < 50_000) {
-        console.log(taxYear)
         return income * 1.2
     } else {
         return income * 1.3
@@ -98,7 +97,7 @@ function calculateTax(income: number, taxYear?: number): number {
 
 }
 
-console.log(calculateTax(40000))
+console.log(calculateTax(70_000))
 //OUTPUT: 48000
 
 
