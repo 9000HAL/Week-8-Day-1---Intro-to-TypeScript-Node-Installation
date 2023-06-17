@@ -54,14 +54,7 @@ function myFunc(a: number, b: number): number {}
 
 
 
+//CODEWARS .js Problem #1: https://www.codewars.com/kata/5583090cbe83f4fd8c000051/solutions/javascript
 
 
-
-//CODEWARS .js Problem #1:
-
-
-
-
-
-
-//CODEWARS .js Problem #1:
+//CODEWARS .js Problem #2: https://www.codewars.com/kata/55cbd4ba903825f7970000f5/solutions/javascript
